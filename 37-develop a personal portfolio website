@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <title>Your Name – Portfolio</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            Margin: 0;
+            Padding: 0;
+            Background-color: #f4f4f4;
+        }
+
+        Header {
+            Background-color: #333;
+            Color: #fff;
+            Text-align: center;
+            Padding: 1em;
+        }
+
+        Section {
+            Padding: 2em;
+        }
+
+        H1, h2 {
+            Color: #333;
+        }
+
+        .bio {
+            Max-width: 800px;
+            Margin: 0 auto;
+        }
+
+        Footer {
+            Background-color: #333;
+            Color: #fff;
+            Text-align: center;
+            Padding: 1em;
+            Position: fixed;
+            Bottom: 0;
+            Width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+
+    <section>
+        <div class=”bio”>
+            <h2>About Me</h2>
+            <p>Your brief bio or introduction goes here. Highlight your background and career objectives.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class=”contact”>
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <!—Add a contact form here if you prefer 
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2023 Your Name – Portfolio
+    </footer>
+</body>
+</html>
+<!—Add this section after the Contact section in your HTML template 
+
+<section>
+    <div class=”about”>
+        <h2>About Me</h2>
+        <div class=”education”>
+            <h3>Education</h3>
+            <p>University Name – Bachelor’s in [Your Degree], Graduation Year</p>
+        </div>
+
+        <div class=”experience”>
+            <h3>Work Experience</h3>
+            <p>Company Name – Position – Start Year to End Year</p>
+            <!—Repeat this block for each work experience entry 
+        </div>
+
+        <div class=”achievements”>
+            <h3>Achievements</h3>
+            <ul>
+                <li>Certification in [Your Certification]</li>
+                <!—Add more achievements as needed 
+            </ul>
+        </div>
+
+        <div class=”skills”>
+            <h3>Skills</h3>
+            <p>Web Development, Graphic Design, Project Management, etc.</p>
+            <!—You can use icons or progress bars to showcase proficiency levels 
+        </div>
+    </div>
+</section>
+<!—Add this section after the About Me section in your HTML template 
+
+<section>
+    <div class=”portfolio”>
+        <h2>Portfolio</h2>
+
+        <div class=”project”>
+            <h3>Project Title 1</h3>
+            <p>Description of Project 1 goes here. Briefly explain what the project is about.</p>
+            <img src=”project1_screenshot.jpg” alt=”Project 1 Screenshot”>
+            <!—Add more images/screenshots if needed 
+
+            <!—Optional: Add live project link or GitHub repository link 
+            <p><a href=https://www.example.com/project1 target=”_blank”>Live Project</a> | <a href=https://github.com/yourusername/project1 target=”_blank”>GitHub Repo</a></p>
+        </div>
+
+        <div class=”project”>
+            <h3>Project Title 2</h3>
+            <p>Description of Project 2 goes here. Briefly explain what the project is about.</p>
+            <img src=”project2_screenshot.jpg” alt=”Project 2 Screenshot”>
+            <!—Add more images/screenshots if needed 
+
+            <!—Optional: Add live project link or GitHub repository link 
+            <p><a href=https://www.example.com/project2 target=”_blank”>Live Project</a> | <a href=https://github.com/yourusername/project2 target=”_blank”>GitHub Repo</a></p>
+        </div>
+
+        <!—Add more project cards as needed 
+    </div>
+</section>
+<!—Add this section after the Portfolio section in your HTML template 
+
+<section>
+    <div class=”resume”>
+        <h2>Resume/CV</h2>
+
+        <!—Option 1: Provide a downloadable link to your resume in PDF format 
+        <p>Download my resume: <a href=”path/to/your-resume.pdf” download>Resume.pdf</a></p>
+
+        <!—Option 2: Present resume information directly on the page 
+        <div class=”resume-content”>
+            <h3>Your Name</h3>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: <a href=https://www.linkedin.com/in/yourusername target=”_blank”>linkedin.com/in/yourusername</a></p>
+
+            <h4>Education</h4>
+            <p>University Name – Bachelor’s in [Your Degree], Graduation Year</p>
+
+            <h4>Work Experience</h4>
+            <p>Company Name – Position – Start Year to End Year</p>
+            <!—Repeat this block for each work experience entry 
+
+            <h4>Skills</h4>
+            <p>Web Development, Graphic Design, Project Management, etc.</p>
+            <!—You can use icons or progress bars to showcase proficiency levels 
+        </div>
+    </div>
+</section>
+<!—Add this section after the Resume/CV section in your HTML template 
+
+<section>
+    <div class=”blog”>
+        <h2>Blog</h2>
+
+        <div class=”article”>
+            <h3>Article Title 1</h3>
+            <p class=”publication-date”>Published on: January 1, 2023</p>
+            <p>Brief excerpt or summary of Article 1. Provide enough information to entice readers.</p>
+            <p><a href=”blog/article1.html”>Read more</a></p>
+        </div>
+
+        <div class=”article”>
+            <h3>Article Title 2</h3>
+            <p class=”publication-date”>Published on: February 15, 2023</p>
+            <p>Brief excerpt or summary of Article 2. Provide enough information to entice readers.</p>
+            <p><a href=”blog/article2.html”>Read more</a></p>
+        </div>
+
+        <!—Add more article entries as needed 
+    </div>
+</section>
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <title>Contact – Your Name</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            Margin: 0;
+            Padding: 0;
+            Background-color: #f4f4f4;
+        }
+
+        Header {
+            Background-color: #333;
+            Color: #fff;
+            Text-align: center;
+            Padding: 1em;
+        }
+
+        Section {
+            Padding: 2em;
+        }
+
+        H1, h2 {
+            Color: #333;
+        }
+
+        .contact-form {
+            Max-width: 600px;
+            Margin: 0 auto;
+        }
+
+        Form {
+            Display: grid;
+            Gap: 1em;
+        }
+
+        Label {
+            Font-weight: bold;
+        }
+
+        Input, textarea {
+            Width: 100%;
+            Padding: 0.5em;
+            Margin-top: 0.5em;
+            Border: 1px solid #ccc;
+            Border-radius: 4px;
+        }
+
+        Button {
+            Background-color: #333;
+            Color: #fff;
+            Padding: 0.5em 1em;
+            Border: none;
+            Border-radius: 4px;
+            Cursor: pointer;
+        }
+
+        .social-links {
+            Margin-top: 1em;
+        }
+
+        .social-links a {
+            Display: inline-block;
+            Margin-right: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Contact Me</p>
+    </header>
+
+    <section>
+        <div class=”contact-form”>
+            <h2>Contact Form</h2>
+            <form action=”submit_form.php” method=”post”>
+                <label for=”name”>Name:</label>
+                <input type=”text” id=”name” name=”name” required>
+
+                <label for=”email”>Email:</label>
+                <input type=”email” id=”email” name=”email” required>
+
+                <label for=”message”>Message:</label>
+                <textarea id=”message” name=”message” rows=”4” required></textarea>
+
+                <button type=”submit”>Submit</button>
+            </form>
+        </div>
+
+        <div class=”social-links”>
+            <h2>Social Media</h2>
+            <a href=https://www.linkedin.com/in/yourusername target=”_blank”>LinkedIn</a>
+            <a href=https://twitter.com/yourusername target=”_blank”>Twitter</a>
+            <!—Add more social media links as needed 
+        </div>
+
+        <div class=”additional-contact-info”>
+            <h2>Additional Contact Information</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <!—Add more contact information as needed 
+        </div>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <title>Your Name – Portfolio</title>
+    <style>
+        Body {
+            Font-family: ‘Arial’, sans-serif;
+            Margin: 0;
+            Padding: 0;
+            Background-color: #f4f4f4;
+            Color: #333;
+        }
+
+        Header {
+            Background-color: #333;
+            Color: #fff;
+            Text-align: center;
+            Padding: 1em;
+        }
+
+        Section {
+            Padding: 2em;
+            Max-width: 1200px;
+            Margin: 0 auto;
+        }
+
+        H1, h2, h3 {
+            Color: #333;
+        }
+
+        .container {
+            Width: 100%;
+            Max-width: 1200px;
+            Margin: 0 auto;
+            Padding: 0 20px;
+        }
+
+        /* Responsive navigation menu */
+        Nav {
+            Display: flex;
+            Justify-content: space-between;
+            Align-items: center;
+            Background-color: #333;
+            Padding: 1em;
+        }
+
+        Nav a {
+            Color: #fff;
+            Text-decoration: none;
+            Margin: 0 10px;
+            Transition: color 0.3s;
+        }
+
+        Nav a:hover {
+            Color: #ff9900;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            Nav {
+                Flex-direction: column;
+            }
+
+            Nav a {
+                Margin: 10px 0;
+            }
+        }
+
+        /* Add your styles for other sections (About Me, Portfolio, Resume, Blog, Contact) here */
+
+        Footer {
+            Background-color: #333;
+            Color: #fff;
+            Text-align: center;
+            Padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+
+    <!—Navigation 
+    <nav>
+        <a href=”#about”>About</a>
+        <a href=”#portfolio”>Portfolio</a>
+        <a href=”#resume”>Resume</a>
+        <a href=”#blog”>Blog</a>
+        <a href=”#contact”>Contact</a>
+    </nav>
+
+    <!—Sections 
+    <section id=”about” class=”container”>
+        <!—About Me content 
+    </section>
+
+    <section id=”portfolio” class=”container”>
+        <!—Portfolio content 
+    </section>
+
+    <section id=”resume” class=”container”>
+        <!—Resume content 
+    </section>
+
+    <section id=”blog” class=”container”>
+        <!—Blog content 
+    </section>
+
+    <section id=”contact” class=”container”>
+        <!—Contact content 
+    </section>
+
+    <footer>
+        &copy; 2023 Your Name – Portfolio
+    </footer>
+</body>
+</html>
+
+```html
+<!—Add this section inside the <body> element, before the header, after the navigation 
+<nav class=”navigation”>
+    <div class=”container”>
+        <a href=”#about”>About</a>
+        <a href=”#portfolio”>Portfolio</a>
+        <a href=”#resume”>Resume</a>
+        <a href=”#blog”>Blog</a>
+        <a href=”#contact”>Contact</a>
+    </div>
+</nav>
+```
+
+And add the following CSS styles:
+
+```css
+<style>
+    /* Add these styles inside the existing <style> tag */
+
+    .navigation {
+        Background-color: #333;
+        Padding: 1em 0;
+    }
+
+    .navigation a {
+        Color: #fff;
+        Text-decoration: none;
+        Margin: 0 20px;
+        Font-size: 16px;
+        Transition: color 0.3s;
+    }
+
+    .navigation a:hover {
+        Color: #ff9900;
+    }
+
+    @media (max-width: 768px) {
+        .navigation {
+            Text-align: center;
+        }
+
+        .navigation a {
+            Display: block;
+            Margin: 10px 0;
+        }
+    }
+</style>
+```
+
+
