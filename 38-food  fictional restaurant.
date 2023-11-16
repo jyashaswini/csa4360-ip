@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>Fictional Restaurant</title>
+  <style>
+    Body {
+      Font-family: ‘Arial’, sans-serif;
+      Margin: 0;
+      Padding: 0;
+      Background-color: #f5f5f5;
+    }
+
+    Header {
+      Background-color: #333;
+      Color: white;
+      Text-align: center;
+      Padding: 1em;
+    }
+
+    Section {
+      Max-width: 1200px;
+      Margin: 20px auto;
+      Padding: 20px;
+      Background-color: white;
+      Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    Img {
+      Max-width: 100%;
+      Height: auto;
+    }
+
+    H1, h2 {
+      Color: #333;
+    }
+
+    P {
+      Color: #555;
+    }
+
+    .welcome-message {
+      Font-size: 1.5em;
+      Margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Restaurant</h1>
+  </header>
+
+  <section>
+    <div class=”welcome-message”>
+      <p>Welcome to a Culinary Delight!</p>
+    </div>
+
+    <img src=”restaurant_exterior.jpg” alt=”Restaurant Exterior”>
+    <h2>Explore Our Menu</h2>
+    <p>Discover a variety of mouthwatering dishes crafted with passion and creativity.</p>
+
+    <img src=”signature_dish.jpg” alt=”Signature Dish”>
+    <h2>Signature Dishes</h2>
+    <p>Indulge in our chef’s specialties, each a masterpiece of flavor and presentation.</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>For reservations or inquiries, reach out to us at:</p>
+    <p>Email: info@fictionalrestaurant.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>Fictional Restaurant</title>
+  <style>
+    /* Same CSS as before */
+
+    Nav {
+      Background-color: #333;
+      Color: white;
+      Text-align: center;
+      Padding: 1em;
+    }
+
+    Nav a {
+      Color: white;
+      Text-decoration: none;
+      Margin: 0 10px;
+    }
+
+    .menu-category {
+      Margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Restaurant</h1>
+  </header>
+
+  <nav>
+    <a href=”#appetizers”>Appetizers</a>
+    <a href=”#main-courses”>Main Courses</a>
+    <a href=”#desserts”>Desserts</a>
+    <!—Add more categories as needed 
+  </nav>
+
+  <section id=”appetizers” class=”menu-category”>
+    <h2>Appetizers</h2>
+    <div>
+      <img src=”appetizer1.jpg” alt=”Appetizer 1”>
+      <h3>Appetizer 1</h3>
+      <p>Delightful appetizer with a blend of flavors. Perfect for sharing!</p>
+      <p>Ingredients: Ingredient A, Ingredient B, Ingredient C</p>
+      <p>Price: $10.99</p>
+    </div>
+    <!—Add more appetizers as needed 
+  </section>
+
+  <section id=”main-courses” class=”menu-category”>
+    <h2>Main Courses</h2>
+    <div>
+      <img src=”main_course1.jpg” alt=”Main Course 1”>
+      <h3>Main Course 1</h3>
+      <p>A savory main course that satisfies your taste buds. A true culinary experience!</p>
+      <p>Ingredients: Ingredient X, Ingredient Y, Ingredient Z</p>
+      <p>Price: $20.99</p>
+    </div>
+    <!—Add more main courses as needed 
+  </section>
+
+  <section id=”desserts” class=”menu-category”>
+    <h2>Desserts</h2>
+    <div>
+      <img src=”dessert1.jpg” alt=”Dessert 1”>
+      <h3>Dessert 1</h3>
+      <p>Indulge in the sweetness of this heavenly dessert. A perfect way to end your meal!</p>
+      <p>Ingredients: Ingredient P, Ingredient Q, Ingredient R</p>
+      <p>Price: $8.99</p>
+    </div>
+    <!—Add more desserts as needed 
+  </section>
+
+  <!—Add more sections for additional menu categories 
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>For reservations or inquiries, reach out to us at:</p>
+    <p>Email: info@fictionalrestaurant.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>Fictional Restaurant</title>
+  <style>
+    /* Same CSS as before */
+
+    /* Additional styling for the contact page */
+    .contact-container {
+      Text-align: center;
+    }
+
+    #map {
+      Width: 100%;
+      Height: 400px;
+      Margin-bottom: 20px;
+    }
+
+    Form {
+      Max-width: 600px;
+      Margin: 0 auto;
+    }
+
+    Input, textarea, button {
+      Width: 100%;
+      Margin-bottom: 15px;
+      Padding: 10px;
+      Box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Restaurant</h1>
+  </header>
+
+  <nav>
+    <a href=”#appetizers”>Appetizers</a>
+    <a href=”#main-courses”>Main Courses</a>
+    <a href=”#desserts”>Desserts</a>
+    <a href=”#contact”>Contact</a>
+    <!—Add more categories as needed 
+  </nav>
+
+  <section id=”appetizers” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”main-courses” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”desserts” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”contact” class=”contact-container”>
+    <h2>Contact Information</h2>
+
+    <p>Visit us at:</p>
+    <p>123 Delicious Street, Foodville</p>
+    <p>Phone: +1 (123) 456-7890</p>
+    <p>Email: info@fictionalrestaurant.com</p>
+
+    <!—Google Maps Embed 
+    <div id=”map”>
+      <!—Replace the “your_google_maps_embed_link” with your actual Google Maps embed link 
+      <iframe src=”your_google_maps_embed_link” width=”100%” height=”400” frameborder=”0” style=”border:0;” allowfullscreen=”” aria-hidden=”false” tabindex=”0”></iframe>
+    </div>
+
+    <!—Contact Form 
+    <form action=”submit_form.php” method=”post”>
+      <label for=”name”>Name:</label>
+      <input type=”text” id=”name” name=”name” required>
+
+      <label for=”email”>Email:</label>
+      <input type=”email” id=”email” name=”email” required>
+
+      <label for=”message”>Message:</label>
+      <textarea id=”message” name=”message” rows=”4” required></textarea>
+
+      <button type=”submit”>Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>Fictional Restaurant</title>
+  <style>
+    /* Same CSS as before */
+
+    .reservation-container {
+      Text-align: center;
+    }
+
+    Form {
+      Max-width: 600px;
+      Margin: 0 auto;
+    }
+
+    Input, select, button {
+      Width: 100%;
+      Margin-bottom: 15px;
+      Padding: 10px;
+      Box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Restaurant</h1>
+  </header>
+
+  <nav>
+    <a href=”#appetizers”>Appetizers</a>
+    <a href=”#main-courses”>Main Courses</a>
+    <a href=”#desserts”>Desserts</a>
+    <a href=”#contact”>Contact</a>
+    <a href=”#reservation”>Reservation</a>
+    <!—Add more categories as needed 
+  </nav>
+
+  <section id=”appetizers” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”main-courses” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”desserts” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”contact” class=”contact-container”>
+    <!-- … (previous code for contact information) … 
+  </section>
+
+  <section id=”reservation” class=”reservation-container”>
+    <h2>Online Reservation</h2>
+
+    <!—Reservation Form 
+    <form id=”reservationForm” action=”process_reservation.php” method=”post”>
+      <label for=”date”>Date:</label>
+      <input type=”date” id=”date” name=”date” required>
+
+      <label for=”time”>Time:</label>
+      <input type=”time” id=”time” name=”time” required>
+
+      <label for=”guests”>Number of Guests:</label>
+      <select id=”guests” name=”guests” required>
+        <option value=”1”>1 Guest</option>
+        <option value=”2”>2 Guests</option>
+        <option value=”3”>3 Guests</option>
+        <!—Add more options as needed 
+
+      </select>
+
+      <button type=”submit”>Reserve Table</button>
+    </form>
+
+    <!—JavaScript for basic client-side validation 
+    <script>
+      Document.getElementById(‘reservationForm’).addEventListener(‘submit’, function (event) {
+        // Add your own validation logic here
+        Var dateInput = document.getElementById(‘date’);
+        Var timeInput = document.getElementById(‘time’);
+
+        If (!isValidDate(dateInput.value)) {
+          Alert(‘Please enter a valid date.’);
+          Event.preventDefault();
+        }
+
+        If (!isValidTime(timeInput.value)) {
+          Alert(‘Please enter a valid time.’);
+          Event.preventDefault();
+        }
+      });
+
+      Function isValidDate(dateString) {
+        // Add your date validation logic here
+        Return true;
+      }
+
+      Function isValidTime(timeString) {
+        // Add your time validation logic here
+        Return true;
+      }
+    </script>
+  </section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>Fictional Restaurant</title>
+  <style>
+    /* Same CSS as before */
+
+    .about-container {
+      Text-align: center;
+    }
+
+    .chef-bio {
+      Display: flex;
+      Align-items: center;
+      Justify-content: center;
+      Margin-bottom: 20px;
+    }
+
+    .chef-image {
+      Border-radius: 50%;
+      Margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Restaurant</h1>
+  </header>
+
+  <nav>
+    <a href=”#appetizers”>Appetizers</a>
+    <a href=”#main-courses”>Main Courses</a>
+    <a href=”#desserts”>Desserts</a>
+    <a href=”#contact”>Contact</a>
+    <a href=”#reservation”>Reservation</a>
+    <a href=”#about”>About Us</a>
+    <!—Add more categories as needed 
+  </nav>
+
+  <section id=”appetizers” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”main-courses” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”desserts” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”contact” class=”contact-container”>
+    <!-- … (previous code for contact information) … 
+  </section>
+
+  <section id=”reservation” class=”reservation-container”>
+    <!-- … (previous code for reservation form) … 
+  </section>
+
+  <section id=”about” class=”about-container”>
+    <h2>About Us</h2>
+
+    <p>Welcome to Fictional Restaurant, where culinary excellence meets a warm and inviting atmosphere. Our journey began in [year], and since then, we’ve been dedicated to delivering a memorable dining experience.</p>
+
+    <p>Concept:</p>
+    <p>At the heart of our concept is [brief description of the concept], ensuring that every dish tells a story and every visit is a unique adventure.</p>
+
+    <p>Culinary Philosophy:</p>
+    <p>Our culinary philosophy revolves around [philosophy details], embracing fresh, locally-sourced ingredients to create dishes that tantalize the taste buds.</p>
+
+    <h3>Chef and Kitchen Staff</h3>
+
+    <!—Chef’s Bio 
+    <div class=”chef-bio”>
+      <img src=”chef_image.jpg” alt=”Chef Image” class=”chef-image”>
+      <div>
+        <h4>Chef John Doe</h4>
+        <p>With a passion for culinary artistry, Chef John Doe brings [number] years of experience to our kitchen. His innovative approach and dedication to quality have earned him recognition in the culinary world.</p>
+      </div>
+    </div>
+
+    <!—Kitchen Staff Bios 
+    <div class=”chef-bio”>
+      <img src=”staff1_image.jpg” alt=”Staff 1 Image” class=”chef-image”>
+      <div>
+        <h4>Anna Smith – Sous Chef</h4>
+        <p>As our Sous Chef, Anna Smith infuses creativity into every dish. Her attention to detail and commitment to excellence contribute to the unique flavors you experience at Fictional Restaurant.</p>
+      </div>
+    </div>
+
+    <!—Add more staff bios as needed 
+
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>Fictional Restaurant</title>
+  <style>
+    /* Same CSS as before */
+
+    .specials-container {
+      Text-align: center;
+    }
+
+    .special {
+      Margin-bottom: 30px;
+    }
+
+    .special img {
+      Max-width: 100%;
+      Height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Restaurant</h1>
+  </header>
+
+  <nav>
+    <a href=”#appetizers”>Appetizers</a>
+    <a href=”#main-courses”>Main Courses</a>
+    <a href=”#desserts”>Desserts</a>
+    <a href=”#contact”>Contact</a>
+    <a href=”#reservation”>Reservation</a>
+    <a href=”#about”>About Us</a>
+    <a href=”#specials”>Special Offers</a>
+    <!—Add more categories as needed 
+  </nav>
+
+  <section id=”appetizers” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”main-courses” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”desserts” class=”menu-category”>
+    <!-- … (previous code for menu categories) … 
+  </section>
+
+  <section id=”contact” class=”contact-container”>
+    <!-- … (previous code for contact information) … 
+  </section>
+
+  <section id=”reservation” class=”reservation-container”>
+    <!-- … (previous code for reservation form) … 
+  </section>
+
+  <section id=”about” class=”about-container”>
+    <!-- … (previous code for about us) … 
+  </section>
+
+  <section id=”specials” class=”specials-container”>
+    <h2>Special Offers and Events</h2>
+
+    <!—Special Offer 1 
+    <div class=”special”>
+      <img src=”special_offer1.jpg” alt=”Special Offer 1”>
+      <h3>Happy Hour Delights</h3>
+      <p>Join us for happy hour from 4 PM to 7 PM every weekday. Enjoy special discounts on selected appetizers and drinks!</p>
+    </div>
+
+    <!—Special Offer 2 
+    <div class=”special”>
+      <img src=”special_offer2.jpg” alt=”Special Offer 2”>
+      <h3>Weekend Feast</h3>
+      <p>Indulge in our weekend feast! A special three-course menu featuring chef’s selected dishes. Available every Friday and Saturday.</p>
+    </div>
+
+    <!—Add more special offers as needed 
+
+    <!—Upcoming Event 
+    <div class=”special”>
+      <img src=”upcoming_event.jpg” alt=”Upcoming Event”>
+      <h3>Save the Date – New Menu Launch</h3>
+      <p>Exciting new flavors are coming! Join us on [date] for the launch of our new menu. Be the first to experience a culinary journey like never before!</p>
+    </div>
+
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>Fictional Restaurant</title>
+  <style>
+    /* Same CSS as before */
+
+    .testimonials-container {
+      Text-align: center;
+    }
+
+    .testimonial {
+      Max-width: 600px;
+      Margin: 0 auto 30px;
+      Padding: 20px;
+      Background-color: #f9f9f9;
+      Border-radius: 8px;
+      Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial p {
+      Font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Restaurant</h1>
+  </header>
+
